@@ -1,0 +1,6 @@
+.venv/
+.env
+bilheteria-diaria-obras-por-exibidoras-csv/
+data/
+__pycache__/
+*.pyc
