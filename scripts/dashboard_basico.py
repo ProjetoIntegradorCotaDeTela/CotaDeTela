@@ -209,7 +209,8 @@ def tabela_detalhe(where: str, limite: int = 500) -> pd.DataFrame:
     sql = f"""
         SELECT
             DATA_EXIBICAO,
-            TITULO_BRASIL,
+            TITULO_ORIGINAL,
+            TITULO_BRASIL,            
             UF_SALA_COMPLEXO,
             MUNICIPIO_SALA_COMPLEXO,
             NOME_SALA,
